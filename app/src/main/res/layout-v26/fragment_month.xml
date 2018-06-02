@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Month">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/uibk">
+
+        <Button
+            android:id="@+id/buttonFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="68dp"
+            android:layout_marginStart="96dp"
+            android:background="@drawable/finish_button_background"
+            android:text="Finish"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etGetInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginStart="32dp"
+            android:ems="10"
+            android:hint="more..."
+            android:inputType="textPersonName"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="228dp"
+            android:layout_marginStart="70dp"
+            android:fontFamily="monospace"
+            android:text="More about it"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <CalendarView
+            android:id="@+id/mCalendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </CalendarView>
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_read"
+            android:layout_width="67dp"
+            android:layout_height="61dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="260dp"
+            android:layout_marginRight="@dimen/fab_margin_right"
+            android:elevation="6dp"
+            android:src="@drawable/ic_action_read2"
+            android:visibility="invisible"
+            app:backgroundTint="@color/galben"
+            app:pressedTranslationZ="12dp"
+
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_buy"
+            android:layout_width="67dp"
+            android:layout_height="61dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="180dp"
+            android:layout_marginRight="@dimen/fab_margin_right"
+            android:elevation="6dp"
+            android:src="@drawable/ic_action_buy2"
+            android:visibility="invisible"
+            app:backgroundTint="@color/verde"
+            app:pressedTranslationZ="12dp"
+
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_pay"
+            android:layout_width="67dp"
+            android:layout_height="61dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="@dimen/fab_margin_right"
+            android:elevation="6dp"
+            android:src="@drawable/ic_action_pay2"
+            android:visibility="invisible"
+            app:backgroundTint="@color/albastru"
+
+            app:pressedTranslationZ="12dp"
+
+
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_plus"
+            android:layout_width="55dp"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="@dimen/fab_margin_right"
+            android:elevation="6dp"
+            android:src="@drawable/ic_action_add"
+            app:pressedTranslationZ="12dp"
+
+
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

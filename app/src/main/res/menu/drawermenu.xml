@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/ic_account_circle_white_24px"/>
+    <item android:id="@+id/month" android:title="Month" android:icon="@drawable/ic_date_range_white_24px"/>
+    <item android:id="@+id/today" android:title="Today" android:icon="@drawable/today"/>
+    <item android:id="@+id/tomorrow" android:title="Tomorrow" android:icon="@drawable/ic_assignment_return_black_24dp" />
+<item android:id="@+id/someday" android:title="Someday" android:icon="@drawable/ic_date_range_white_24px"/>
+<item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_settings_white_24px"/>
+<item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_exit_to_app_white_24px"/>
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#01091c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="toolbar">#011643</color>
+    <color name="drawer">#011643</color>
+    <color name="uibk">#808fb8</color>
+    <color name="albastru">#2196F3</color>
+    <color name="verde">#4CAF50</color>
+    <color name="galben">#F2D024</color>
+    <color name="orange">#DE751F</color>
+    <color name="maro">#684F1D</color>
+    <color name="albastruinchis">#794ACF</color>
+    <color name="rosu">#CC1F1A</color>
+    <color name="profil_background1">#4D648D</color>
+    <color name="profil_background2">#283655</color>
+    <color name="profil_background3">#2F496E</color>
+    <color name="profil_iconite1">#D0E1F9</color>
+    <color name="profil_iconite2">#1E1F26</color>
+    <color name="profil_iconite3">#4897D8</color>
+</resources>
